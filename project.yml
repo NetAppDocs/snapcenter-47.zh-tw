@@ -19,7 +19,7 @@ settings:
   - name: 軟件SnapCenter
     url: "/snapcenter-45"
     version-number: '4.5'
-  langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr,fr-fr,de-de
+  langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr
 sidebar:
   entries:
   - title: Software 4.7文件SnapCenter
