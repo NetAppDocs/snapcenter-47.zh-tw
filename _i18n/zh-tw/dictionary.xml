@@ -7912,4 +7912,8 @@
   <block id="0daccd45abdac281e7508c5de0fa492c" category="sidebar">在Windows主機上配置儲存設備</block>
   <block id="01c23a6022de21870627c656bac73ece" category="sidebar">使用REST API自動化</block>
   <block id="255096918c6f39312df4e3ae033d9a5b" category="sidebar">支援的REST API</block>
+  <block id="e8db8241188813a9c299f2730ff21c40" category="admonition">還原控制檔時、請確定目錄結構存在、或是應以正確的使用者和群組擁有者（如果有）建立、以允許還原程序將檔案複製到目標位置。如果目錄不存在、還原工作將會失敗。</block>
+  <block id="04f76259e3406e39f106d09b85354906" category="inline-link">Exchange備份僅將一半快照保留在Vault目的地記錄磁碟區上SnapCenter</block>
+  <block id="cd4ebcda1969773f0f41ef98c13dc3d5" category="admonition">處理Exchange磁碟區（LUN）時、請為記錄和資料庫建立個別的資料保存原則、並使用相同的標籤、將記錄原則的保留（保留）設定為每個標籤的兩倍數量作為資料庫原則。如需詳細資訊、請參閱：<block ref="069d987d34ba2a5b3f4862b42bb7f849" category="inline-link-rx"></block>。</block>
+  <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">不支援IBM Java。</block>
 </blocks>
