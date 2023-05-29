@@ -196,8 +196,6 @@ Windows外掛程式主機
 
 您應該擁有SQL Server上具有Sysadmin權限的使用者。外掛程式使用Microsoft VDI Framework、需要系統管理員存取權。
 
-如果您使用SnapManager 的是Microsoft SQL Server的支援功能、而且想要將資料從SnapManager Microsoft SQL Server的支援中心匯入SnapCenter 到支援中心、請參閱 link:../protect-scsql/concept_import_archived_backups_from_snapmanager_for_sql_to_snapcenter.html["匯入歸檔備份"^]
-
 
 
 == 安裝SnapCenter 伺服器

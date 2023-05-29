@@ -5237,7 +5237,6 @@
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Microsoft支援文件編號2926557：SQL Server VDI備份與還原作業需要Sysadmin權限</block>
   <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">如果安裝了適用於Microsoft SQL Server的功能、您必須停止或停用服務和排程。SnapManager</block>
-  <block id="1931c747684bb6010ac638ae2be606b3" category="paragraph">如果您打算將備份或複製工作匯入SnapCenter 到支援區、請勿解除安裝SnapManager Microsoft SQL Server的功能。</block>
   <block id="024ecfe0da835b1f362b5e64ec1408ab" category="list-text">主機必須可解析為伺服器的完整網域名稱（FQDN）。</block>
   <block id="be512bf47896cfa164b6d043714d4c71" category="paragraph">如果已修改hosts檔案以使其可解析、且在hosts檔案中同時指定了簡短名稱和FQDN、請在SnapCenter 下列格式的Isethosts檔案中建立項目：&lt;ip_address&gt;&lt;host_fqd&gt;&lt;host_name&gt;</block>
   <block id="3d18a8ecd9e4c9d6e8109fc7dc46902c" category="summary">提供安裝SnapCenter 適用於SnapCenter Microsoft SQL Server的支援服務器和支援Microsoft SQL Server的支援服務。</block>
@@ -5307,8 +5306,6 @@
   <block id="353c85d985312d2d61ab0aeb4ee52759" category="paragraph">*適用於Microsoft SQL Server需求的外掛程式* SnapCenter</block>
   <block id="4bd535cc745449316aa463a5f52133d6" category="paragraph">您的使用者應具備本機系統管理員權限、並具有遠端主機的本機登入權限。如果您管理叢集節點、則需要擁有叢集中所有節點管理權限的使用者。</block>
   <block id="cf94e6be5912bb698bcc03d64c605bc4" category="paragraph">您應該擁有SQL Server上具有Sysadmin權限的使用者。外掛程式使用Microsoft VDI Framework、需要系統管理員存取權。</block>
-  <block id="aa829ddf1acbdd2a8aa6a61635c33dec" category="inline-link-macro">匯入歸檔備份</block>
-  <block id="b06af5128852d56366a94b0a3584c1a6" category="paragraph">如果您使用SnapManager 的是Microsoft SQL Server的支援功能、而且想要將資料從SnapManager Microsoft SQL Server的支援中心匯入SnapCenter 到支援中心、請參閱 <block ref="0079f46f6850618db9fdf32f5f6051e0" category="inline-link-macro-rx"></block></block>
   <block id="354c84f19db927b615f7e75880c69840" category="section-title">安裝SnapCenter 伺服器</block>
   <block id="228c8a7d638433f7182edc100efa8234" category="paragraph">*下載並安裝SnapCenter 《Sile Server*》</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支援網站</block>
@@ -5615,7 +5612,6 @@
   <block id="c236bac131d0c45fb131c82a9be9626b" category="paragraph">複製的資料庫可做為開發新應用程式的基礎、協助隔離正式作業環境中發生的應用程式錯誤。複製的資料庫也可用於從軟性資料庫錯誤中恢復。</block>
   <block id="3b3cb88c222cc635ab5fa7789f228f2a" category="list-text">複製生命週期</block>
   <block id="f23686c03668cab87b56c945fea15bb6" category="paragraph">您可以使用SnapCenter 功能表來排程在正式作業資料庫不忙碌時會發生的重複複複複製工作。</block>
-  <block id="ad6e610d08a861e343805ef4cb444552" category="paragraph">Permalink：Protect - scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html側欄：側欄關鍵字：Clone Summary：「The Clone Workflow containing plempling、Performing the Clone operation and Monitoring the operation」（複製工作流程包括規劃、執行複製作業及監控作業）。--=使用PowerShell Cmdlet複製備份：圖示：字型：imagesdir：../media/</block>
   <block id="93cc1cc2daa04d11bc708425a3170d4d" category="summary">當適用於SQL Server的解決方案不支援時、您只需執行幾個手動步驟即可恢復。SnapCenter</block>
   <block id="37ffa79bbd2952586645cff30d8eba05" category="paragraph">當適用於SQL Server的解決方案不正常時、請切換至其他SQL主機、然後執行幾個步驟來恢復資料。SnapCenter</block>
   <block id="7a1a91fe74f7d2f66d8eabb50e547d5f" category="list-text">次要主機的作業系統、應用程式和主機名稱應與主要主機相同。</block>
@@ -5762,10 +5758,6 @@
   <block id="29a6d4ddcd28e22d7ba6ab65da50bf6f" category="paragraph">如需執行Cmdlet的資訊、請參閱<block ref="9af97e8a01b20be8df7443d0a4ef81ca" category="inline-link-rx"></block></block>
   <block id="eefa922509507f72bc1a8ad3abe353fd" category="list-text">如果您使用SnapCenter VMware vCenter Server來保護位於VMware RDM LUN或VMDK上的SQL資料庫、則必須部署SnapCenter VMware vSphere的「支援VMware vSphere的支援中心」外掛程式、並以SnapCenter 「支援中心」登錄外掛程式。VMware vSphere的《VMware vCenter外掛程式》文件有更多資訊。SnapCenter</block>
   <block id="2d3786cce4bbee81c9852997cc1bef39" category="paragraph"><block ref="2d3786cce4bbee81c9852997cc1bef39" category="inline-link-rx"></block></block>
-  <block id="eec7968b53638fab183beb9401255808" category="list-text">將現有資料庫移至NetApp儲存設備。</block>
-  <block id="782b2e16a66c054ba5d75c3a3345abfe" category="paragraph">如需詳細資訊、請參閱SnapCenter 「資訊的資料來源」。</block>
-  <block id="3a5bf11a9dfcb97482357af03217e45f" category="inline-link-macro">將歸檔的備份從SnapManager Microsoft SQL Server的支援功能匯入SnapCenter 到支援功能</block>
-  <block id="f87b26dbb302ad8c2fe31750b897cc6f" category="paragraph"><block ref="f87b26dbb302ad8c2fe31750b897cc6f" category="inline-link-macro-rx"></block></block>
   <block id="697a526808255bffff4fb836c66f8996" category="paragraph">如需詳細資訊、請參閱SnapCenter 《關於安裝的資訊：</block>
   <block id="862e27b33388db0f7174e2affc68bbee" category="doc">在「拓撲」頁面中檢視SQL Server備份與複製</block>
   <block id="916ae24ede0fe52b13d762f08bbe7503" category="paragraph">您可以在「*管理複本*」檢視中檢閱下列圖示、以判斷主要或次要儲存設備（鏡射複本或Vault複本）上是否有可用的備份與複本。</block>
@@ -6437,8 +6429,6 @@
   <block id="35602ea96136092b8b885fe1ef749873" category="list-text">確認已填入端點、識別項和簽名欄位。</block>
   <block id="907fe6bfcd498fe3e561f7fb3ee67c89" category="paragraph">也可使用REST API來啟用「支援MFA」功能。SnapCenter</block>
   <block id="1958e9c22cb352dba19d476e05b4a53b" category="paragraph">啟用、更新或停用SnapCenter 完效益管理系統中的MFA設定後、請關閉所有瀏覽器索引標籤、然後重新開啟瀏覽器以重新登入。這將清除現有或作用中的工作階段Cookie。</block>
-  <block id="442ed19a31ac1f651ba7bf07effe122c" category="inline-link-macro">在多個索引標籤中登入顯示MFA錯誤SnapCenter</block>
-  <block id="b07f8a55d09983494694fca31fee6b35" category="paragraph">如需疑難排解資訊、請參閱 <block ref="46642a8ad62fd1a061e94d6b7bf62dc5" category="inline-link-macro-rx"></block></block>
   <block id="aeb89440d41f10fd9cc43ab75d800138" category="section-title">更新AD FS MFA中繼資料</block>
   <block id="19b3ff63dd3f3b6c1e3e48e8b3be6141" category="paragraph">只要AD FS伺服器有任何修改、例如升級、CA憑證續約、DR等、您就應該更新SnapCenter 位於支援區的AD FS MFA中繼資料。</block>
   <block id="2a18eff05051b9c720a786193ade4742" category="list-text">將下載的檔案複製SnapCenter 到「伺服器」以更新MFA組態。</block>
@@ -7918,4 +7908,8 @@
   <block id="3a6eb59ee064b09b020c1a87c5de4988" category="admonition">不支援IBM Java。</block>
   <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">作業失敗、錯誤無法探索 LUN 的裝置</block>
   <block id="24642a08e354f43168ca4f1178850f84" category="list-text">您應確保 LUN 未使用由混合式傳輸協定 iSCSI 和 FC 組成的 iGroup 、對應至 AIX 主機。如需詳細資訊、請參閱<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>。</block>
+  <block id="9756c6d75626032c8da05d425c1d0ca9" category="inline-link">對於沒有網際網路連線的舊版系統、 SnapCenter 升級或安裝失敗</block>
+  <block id="13049774dda261f80daaffb596a81a1a" category="paragraph">如需 .NET 疑難排解資訊、請參閱<block ref="942b108700d0bb5d970d88a8461fd602" category="inline-link-rx"></block>。</block>
+  <block id="e4d919fee3d32117fafed951c3cdbfe5" category="inline-link-macro">在多個索引標籤中登入 SnapCenter 會顯示 MFA 錯誤</block>
+  <block id="2f173d5b0ca9ce83c5f72823b496861e" category="paragraph">如需疑難排解資訊、請參閱 <block ref="483bd3f656143b22c94a19a83a51ec44" category="inline-link-macro-rx"></block>。</block>
 </blocks>
