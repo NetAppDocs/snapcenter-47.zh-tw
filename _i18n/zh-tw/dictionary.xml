@@ -3844,12 +3844,7 @@
   <block id="5cfa1ed5b7279fa5a9a9f892a69f175f" category="list-text">Oracle資料庫的支援元件應安裝在替代主機上。SnapCenter</block>
   <block id="b1815397269c524f0557a5562899d82b" category="list-text">實體複本主機應該能夠從主要或次要儲存設備探索LUN。</block>
   <block id="2d4350dba1907fc52580a8f201e6340e" category="list-text">如果您要從主要儲存設備或次要（Vault或Mirror）儲存設備複製到替代主機、請確定iSCSI工作階段是建立在次要儲存設備和備用主機之間、或是適當地分區用於FC。</block>
-  <block id="3e30bf9ff6c5058456cc15f4812939ca" category="inline-link">《Linux主機公用程式安裝與設定指南》</block>
-  <block id="a13c407c281871b27c7c646287cfb88e" category="list-text"><block ref="a13c407c281871b27c7c646287cfb88e" category="inline-link-rx"></block></block>
-  <block id="99d5e9e8be050afa5c8c0151d7a00740" category="inline-link">《AIX主機公用程式安裝與設定指南》</block>
-  <block id="cc1ac40238dd772ed5975e72e877a936" category="list-text"><block ref="cc1ac40238dd772ed5975e72e877a936" category="inline-link-rx"></block></block>
   <block id="7ab56a931702e0e68323bba5f9744b17" category="list-text">如果您要從Vault或Mirror儲存設備複製到同一主機、請確定iSCSI工作階段是在Vault或Mirror儲存設備與主機之間建立、或是適當地分區用於FC。</block>
-  <block id="0bfae4ea7762d7ebae116652014f4cd5" category="list-text">如果是在虛擬化環境中進行複製、請確定iSCSI工作階段是在主要或次要儲存設備與裝載備用主機的ESX伺服器之間建立、或是適當地分區以供FC使用。</block>
   <block id="b6002df6af7fac27dc362f546398ad42" category="list-text">如果來源資料庫是ASM資料庫：</block>
   <block id="201c11864b685f8dcf2d90b5b22cd818" category="list-text">ASM執行個體應在執行實體複本的主機上啟動並執行。</block>
   <block id="9154cf1449b0c872a99006c07487631d" category="list-text">如果您想要將複製資料庫的歸檔記錄檔放入專屬的ASM磁碟群組、則應在複製作業之前配置ASM磁碟群組。</block>
@@ -4158,7 +4153,6 @@
   <block id="c41e777bd921bd5fc9079273c0ed35db" category="doc">適用於Microsoft Exchange Server的插件概述SnapCenter</block>
   <block id="e126a0dff251b10008436e2bf2a5dd06" category="paragraph">適用於Microsoft Exchange Server的《支援功能》外掛程式是NetApp支援應用程式感知的Exchange資料庫資料保護管理功能的NetApp支援軟體主機端元件。SnapCenter SnapCenterExchange外掛程式可在SnapCenter 您的支援環境中自動備份及還原Exchange資料庫。</block>
   <block id="94bf62b5661b3bf71e7b277fd3572bb1" category="paragraph">安裝Exchange外掛程式時、您可以使用SnapCenter 搭配NetApp SnapMirror技術的功能來建立另一個磁碟區上備份集的鏡射複本、並使用NetApp SnapVault 支援技術來執行磁碟對磁碟備份複寫、以符合標準或用於歸檔。</block>
-  <block id="7af37c4476756504b6f4b3b595f4e558" category="paragraph">如果您想要還原及還原郵件或信箱、而非完整的Exchange資料庫、可以使用單一信箱恢復（SMBR）軟體。</block>
   <block id="442b64d998d026e5e41a7f2456755c85" category="summary">您可以使用SnapCenterAdd Host頁面來新增Windows主機。Exchange外掛程式會自動安裝在指定的主機上。這是安裝外掛程式的建議方法。您可以為個別主機或叢集新增主機並安裝外掛程式。</block>
   <block id="43e4843cc378c4665771060dbab161eb" category="doc">新增主機並安裝Exchange外掛程式</block>
   <block id="9e2a1394549af2f704da56dffdafcdf3" category="paragraph">您可以使用SnapCenter 「更新主機」頁面來新增Windows主機。Exchange外掛程式會自動安裝在指定的主機上。這是安裝外掛程式的建議方法。您可以為個別主機或叢集新增主機並安裝外掛程式。</block>
@@ -4353,10 +4347,6 @@
   <block id="2807319f8bd59affef72f0158525b495" category="doc">精細恢復郵件和信箱</block>
   <block id="504c76abf7209921081fe0b281166c22" category="inline-link">SMBR系統管理指南</block>
   <block id="21816c8bcee290d4ecb4e3f7274ead69" category="paragraph">只為了恢復單一郵件而還原完整的資料庫、將耗費大量時間和資源。SMBR建立Snapshot的複本、然後使用Microsoft API在SMBR中掛載信箱、有助於快速恢復郵件。如需如何使用SMBR的詳細資訊、請參閱<block ref="ec4bbb4517dd2ded0cc504f8d58977d4" category="inline-link-rx"></block>。</block>
-  <block id="7028749c09c12f8bb923863ce2b0cebe" category="inline-link-macro">SMBR授權</block>
-  <block id="e2452ab679d04cfb5a81dfcf28af1c7d" category="list-text"><block ref="e2452ab679d04cfb5a81dfcf28af1c7d" category="inline-link-macro-rx"></block></block>
-  <block id="439c7150753e853ca177cd0e1ef12492" category="inline-link">SMBR文件庫</block>
-  <block id="a586bd7e9166c5253992bcdf4d8b115e" category="list-text"><block ref="a586bd7e9166c5253992bcdf4d8b115e" category="inline-link-rx"></block></block>
   <block id="f367d650e57088caf7b808e01235016d" category="inline-link">如何使用SnapCenter NetApp從SMBR的二線儲存設備還原</block>
   <block id="41b4c689a8b0e3ba8bfecb2a1e608e46" category="list-text"><block ref="41b4c689a8b0e3ba8bfecb2a1e608e46" category="inline-link-rx"></block></block>
   <block id="f004280f6db6ea5f9302c9851388d751" category="inline-link">使用SMBR從SnapVault 功能中還原Microsoft Exchange郵件</block>
@@ -5124,7 +5114,6 @@
   <block id="68c649f38a72af40607349aa57e26c9f" category="paragraph">非root使用者是您所建立的非root使用者名稱。</block>
   <block id="83aeb7b594481ad598eb0b519836777b" category="summary">支援實體與虛擬機器上的各種儲存類型。SnapCenter您必須先驗證儲存類型的支援、才能安裝SnapCenter 「更新自訂外掛程式」。</block>
   <block id="c48a2f5430d3aff55420b834363bcc46" category="doc">支援的儲存類型SnapCenter 由「支援的儲存類型」由「支援的自訂外掛程式</block>
-  <block id="6da41a50505a00272cd3a44cfd33c736" category="paragraph">不支援實體與虛擬伺服器（VMDK與RDM LUN）。</block>
   <block id="b880dba5b80385d6a4d3f5ff54d8ef78" category="summary">您必須使用SnapCenterAdd Host頁面來新增主機、然後安裝外掛程式套件。外掛程式會自動安裝在遠端主機上。您可以為個別主機或叢集新增主機並安裝外掛程式套件。</block>
   <block id="49e317595cf8eea53ae1d965b4173dbc" category="list-text">您應該是指派給角色的使用者、該角色具有外掛程式安裝和解除安裝權限、例如SnapCenter 「支援管理員」角色。</block>
   <block id="d1556c9da336be030540adcf58889977" category="inline-link-macro">在Windows Server 2012或更新版本上為自訂應用程式設定群組託管服務帳戶</block>
@@ -6679,9 +6668,6 @@
   <block id="b6b7e7973fe70256b1b775baf8ac7261" category="paragraph">您應該安裝一SnapCenter 或多個版本的不二授權。如需如何新增授權的資訊、請參閱 <block ref="978050eb868e07441781781da059ebc5" category="inline-link-macro-rx"></block> 或 <block ref="47cf8583fc17afccfc8268b2830ab680" category="inline-link-macro-rx"></block>。</block>
   <block id="59746a4c33021bdc9cb716ea91eadbb0" category="section-title">單一信箱恢復（SMBR）授權</block>
   <block id="8119a3fca1d141f0d7a8e7156604c296" category="paragraph">如果您使用SnapCenter Exchange的還原外掛程式來管理Microsoft Exchange Server資料庫和單一信箱恢復（SMBR）、則您需要額外的SMBR授權、而此授權必須根據使用者信箱另行購買。</block>
-  <block id="0d5e6d352f8f3217e51e0df5fe981349" category="inline-link">SMBR版本說明</block>
-  <block id="3305eb9373205972a06c6092007cad70" category="paragraph">請聯絡您的NetApp銷售代表、以購買SMBR授權、此授權以1000、5000、15000及25000個信箱的套裝組合形式提供。購買SKU之後、您可以依照中的指示取得授權<block ref="26f9ebf6b2beedaef61522277c7c5b3d" category="inline-link-rx"></block>。</block>
-  <block id="e641334b8b39e850790bd4b25b2e3cec" category="paragraph">當您提交授權金鑰申請時、Kroll Ontrack會核發50個信箱授權金鑰。根據您的授權、Kroll Ontrack會在驗證後升級信箱的授權。</block>
   <block id="e4dbf1e5d099c4253a603227e4b3bc08" category="summary">您應該設定儲存系統SnapCenter 、讓您能夠存取ONTAP 不必要的資料儲存設備、以執行資料保護和資源配置作業。您可以新增獨立的SVM或由多個SVM組成的叢集。</block>
   <block id="787d250b4622b9b1f34f52b01f5768aa" category="doc">新增儲存系統</block>
   <block id="032615c5bcc68f759618748b90e724e4" category="paragraph">您應該設定儲存系統SnapCenter 、讓您能夠存取ONTAP 功能不全的功能、或是使用Amazon FSX for NetApp ONTAP 來執行資料保護和資源配置作業。</block>
@@ -7829,7 +7815,6 @@
   <block id="cd04e5d32cbb18b14141238ca9a7ea20" category="sidebar">先前版本SnapCenter 的不適用資料</block>
   <block id="66bdd10c104f52b4f8519b652bc8e084" category="sidebar">NetApp知識庫SnapCenter</block>
   <block id="d7b3c4517cc189c6cdd986195fa3f33f" category="sidebar">Software 4.7文件SnapCenter</block>
-  <block id="bbbbcb8f41827abddd8ec6151fdf9e99" category="sidebar">軟件SnapCenter</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="c16c43065a548034a76faadb18015c27" category="sidebar">以角色為基礎的存取控制（RBAC）SnapCenter</block>
   <block id="b3121ceac9c3b1c097a1f53db3eff2a7" category="sidebar">管理SnapCenter 伺服器和外掛程式</block>
@@ -7910,6 +7895,32 @@
   <block id="24642a08e354f43168ca4f1178850f84" category="list-text">您應確保 LUN 未使用由混合式傳輸協定 iSCSI 和 FC 組成的 iGroup 、對應至 AIX 主機。如需詳細資訊、請參閱<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>。</block>
   <block id="9756c6d75626032c8da05d425c1d0ca9" category="inline-link">對於沒有網際網路連線的舊版系統、 SnapCenter 升級或安裝失敗</block>
   <block id="13049774dda261f80daaffb596a81a1a" category="paragraph">如需 .NET 疑難排解資訊、請參閱<block ref="942b108700d0bb5d970d88a8461fd602" category="inline-link-rx"></block>。</block>
-  <block id="e4d919fee3d32117fafed951c3cdbfe5" category="inline-link-macro">在多個索引標籤中登入 SnapCenter 會顯示 MFA 錯誤</block>
-  <block id="2f173d5b0ca9ce83c5f72823b496861e" category="paragraph">如需疑難排解資訊、請參閱 <block ref="483bd3f656143b22c94a19a83a51ec44" category="inline-link-macro-rx"></block>。</block>
+  <block id="d21fbb2a5ce79a2a4ef0780b73023b2e" category="paragraph">VM 主機上的實體和 NFS 直接掛載（不支援 VMDK 和 RDM LUN ）。</block>
+  <block id="f2688d5a483bee7fcbd80a4e666fc088" category="inline-link">主機公用程式文件</block>
+  <block id="cb6e98b3e61b9a1d942fec6f408e43bb" category="list-text">如果是在虛擬化環境中進行複製、請確定iSCSI工作階段是在主要或次要儲存設備與裝載備用主機的ESX伺服器之間建立、或是適當地分區以供FC使用。
+ +
+如需相關資訊、請參閱<block ref="ab48d7186c8a78dfaf0e19af923f0daf" category="inline-link-rx"></block>。</block>
+  <block id="4507e0d1a42287b926181e4cb9fda1cf" category="summary">提供SnapCenter 此版本的《支援服務器》和SnapCenter 《支援服務器的功能》外掛套件的重要資訊、包括修正問題、已知問題、注意事項及限制。</block>
+  <block id="ced7a5b3383b556d1b18d34c718324e0" category="inline-link">Software 4.7版本說明SnapCenter</block>
+  <block id="999d9efd57a168cef0440d07870393a9" category="paragraph">如需詳細資訊、請參閱<block ref="237f55bc8fab90384c3ca78c8a284ce0" category="inline-link-rx"></block>。</block>
+  <block id="2dce035ff36be1c01663c842167acf77" category="admonition">只有當您安裝SnapCenter 適用於Windows的還原外掛程式、並將NetApp LUN附加至伺服器機器時、儲存庫備份排程才會還原。</block>
+  <block id="90969e9b7bcd66fedcf0339db7d5e13e" category="admonition">如果 DLL 毀損、您可以嘗試修復 SnapCenter 伺服器或修正錯誤的安裝。</block>
+  <block id="936de455e68556a0f0c7a945031aded0" category="admonition">如果 NSM 或組態檔案毀損、您可以使用相同版本解除安裝並重新安裝 SnapCenter 伺服器。</block>
+  <block id="c90d9871b4b86a10a62cd2bf2c1ea688" category="inline-link">使用安裝精靈安裝 SnapCenter 伺服器。</block>
+  <block id="1d72d65109e6906ab81717720199491b" category="paragraph">若要自訂連接埠、請參閱<block ref="724cb62a2271057d0541cdb8153d9260" category="inline-link-rx"></block></block>
+  <block id="60f072866c2d325a151d990670aa5b4c" category="inline-link">新增主機並安裝適用於 Linux 或 AIX 的 SnapCenter 外掛程式套件。</block>
+  <block id="ac01fd33e160c622162b42b1f7e4fe18" category="paragraph">若要自訂連接埠、請參閱<block ref="32882cfc4755cb17eefc59506f087a6f" category="inline-link-rx"></block> 或<block ref="477bb7222f583d223b46c2b591c18bd9" category="inline-link-rx"></block></block>
+  <block id="97e62e758724ab080cbfe2799c388822" category="paragraph">若要自訂連接埠、請參閱<block ref="477bb7222f583d223b46c2b591c18bd9" category="inline-link-rx"></block></block>
+  <block id="fa9e479c30699c2d65f7d1107b28b62a" category="paragraph">若要自訂連接埠、請參閱<block ref="6bb20f223531bd59e001c776ffe35812" category="inline-link-rx"></block></block>
+  <block id="8db273592868b7d940261fe8347b32b4" category="inline-link-macro">CPS-00507</block>
+  <block id="802a2285a60e079b52f32ba2c3140d0d" category="paragraph">NetApp ® 單一信箱恢復已於 2023 年 5 月 12 日結束可用度（ EOA ）。如需詳細資訊、請參閱 <block ref="5a98ce97c5b40ecef6f220dc57d4f14a" category="inline-link-macro-rx"></block>。NetApp 將持續支援已於 2020 年 6 月 24 日推出的行銷零件編號、以支援購買信箱容量、維護和支援的客戶。</block>
+  <block id="03da3b5726a1efd6df1fc511966c89a6" category="paragraph">NetApp 單一信箱恢復是 Ontrack 提供的合作夥伴產品。Ontrack PowerControl 提供的功能與 NetApp 單一信箱恢復功能類似。客戶可從 Ontrack （透過 licensingteam@ontrack.com ）取得新的 Ontrack PowerControl 軟體授權、以及 Ontrack PowerControl 的維護與支援續約、以便在 2023 年 5 月 12 日結束後進行精細信箱恢復。</block>
+  <block id="b73f485c1067e4b3168b292142131855" category="inline-link">在多個索引標籤中同時嘗試登入會顯示 MFA 錯誤</block>
+  <block id="9e4f9470d66f1730ad7525f9043126be" category="paragraph">如需疑難排解資訊、請參閱<block ref="361c774ee5cb22be42ef8ea152ed45ad" category="inline-link-rx"></block>。</block>
+  <block id="245360450ea9845b00af24cc4009b53f" category="paragraph">如果您想要還原及還原郵件或信箱、而非完整的Exchange資料庫、可以使用單一信箱恢復（SMBR）軟體。
+NetApp ® 單一信箱恢復已於 2023 年 5 月 12 日結束可用度（ EOA ）。NetApp 將持續支援已於 2020 年 6 月 24 日推出的行銷零件編號、以支援購買信箱容量、維護和支援的客戶。</block>
+  <block id="01a1924558b81160b570c09fe8a4203c" category="paragraph">NetApp 單一信箱恢復是 Ontrack 提供的合作夥伴產品。Ontrack PowerControl 提供的功能與 NetApp 單一信箱恢復功能類似。客戶可從 Ontrack 購買全新 Ontrack PowerControl 軟體授權、以及 Ontrack PowerControl 的維護與支援續約（透過 licensingteam@ontrack.com ）、以進行精細的信箱恢復。</block>
+  <block id="07c049db30ed73f0d52cca0a50220fcd" category="paragraph">如需 SMBR 的其他資訊、請參閱下列內容：</block>
+  <block id="81845e1ca99f532dc90bd83c62202fc0" category="inline-link">如何使用 SMBR 手動還原單一項目（也適用於 Ontrack 電源控制還原）</block>
+  <block id="db0c2525f5f13ece537a8604a4046d7c" category="list-text"><block ref="db0c2525f5f13ece537a8604a4046d7c" category="inline-link-rx"></block></block>
 </blocks>
