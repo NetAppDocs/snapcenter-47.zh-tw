@@ -1,10 +1,16 @@
-= 
+---
+permalink: protect-hana/task_cancel_backup_operations_for_sap_hana.html 
+sidebar: sidebar 
+keywords:  
+summary: 您可以取消佇列中的備份作業。 
+---
+= 取消SAP HANA的備份作業
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
-'''
-Permalink：Protect - Hana / task_cancel_backup_operations_for_sap_hana.html側欄：側欄關鍵字：摘要：「您可以取消佇列中的備份作業。」--=取消SAP HANA的備份作業：圖示：字型：imagesdir：../media/
-
+[role="lead"]
 您可以取消佇列中的備份作業。
 
 *您需要的是什麼*
@@ -37,7 +43,7 @@ Permalink：Protect - Hana / task_cancel_backup_operations_for_sap_hana.html側�
  a| 
 活動窗格
  a| 
-.. 開始備份作業後、按一下*image:../media/activity_pane_icon.gif[""]*在「活動」窗格中、檢視五項最近的作業。
+.. 啟動備份作業之後、請按一下「活動」窗格上的 * *image:../media/activity_pane_icon.gif["活動圖示"]、以檢視最近五次的作業。
 .. 選取作業。
 .. 在「工作詳細資料」頁面中、按一下*取消工作*。
 

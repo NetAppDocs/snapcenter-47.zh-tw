@@ -21,7 +21,7 @@ summary: 資源群組是您必須新增要備份及保護之資源的容器。�
 
 下圖說明資料庫的資源、資源群組和原則之間的關係：
 
-image::../media/sco_resourcegroup_policy.gif[SCO資源群組原則]
+image::../media/sco_resourcegroup_policy.gif[從資源群組新增原則]
 
 *步驟*
 
@@ -82,12 +82,12 @@ NOTE: 您可以在單一資源群組中同時新增Linux和AIX主機的資料庫
 .. 從下拉式清單中選取一或多個原則。
 +
 
-NOTE: 您也可以按一下建立原則 image:../media/add_policy_from_resourcegroup.gif[""]。
+NOTE: 您也可以按一下建立原則 image:../media/add_policy_from_resourcegroup.gif["從資源群組新增原則"]。
 
 +
 在「設定所選原則的排程」區段中、會列出所選原則。
 
-.. 按一下*image:../media/add_policy_from_resourcegroup.gif[""]*在您要為其設定排程的原則的「設定排程」欄中。
+.. 針對您要設定排程的原則、按一下「設定排程」欄中的 * *image:../media/add_policy_from_resourcegroup.gif["從資源群組新增原則"]。
 .. 在Add schedules for policy _policy_name_（新增原則_原則名稱_的排程）視窗中、設定排程、然後按一下* OK*（確定*）。
 +
 其中、_policy_name_是您選取的原則名稱。
@@ -103,7 +103,7 @@ NOTE: 您也可以按一下建立原則 image:../media/add_policy_from_resourceg
 . 在「驗證」頁面上、執行下列步驟：
 +
 .. 按一下*載入定位器*以載入SnapMirror或SnapVault SnapMirror磁碟區、以便在二線儲存設備上執行驗證。
-.. 按一下*image:../media/add_policy_from_resourcegroup.gif[""]*在「設定排程」欄中、為原則的所有排程類型設定驗證排程。
+.. 按一下「設定排程」欄中的 * *image:../media/add_policy_from_resourcegroup.gif["從資源群組新增原則"] ，以設定原則所有排程類型的驗證排程。
 .. 在「新增驗證排程policy_name」對話方塊中、執行下列動作：
 +
 |===

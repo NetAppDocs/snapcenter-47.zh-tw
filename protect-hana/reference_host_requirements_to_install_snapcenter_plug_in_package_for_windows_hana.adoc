@@ -10,6 +10,7 @@ summary: 在安裝SnapCenter 適用於Windows的整套解決方案之前、您�
 :imagesdir: ../media/
 
 
+[role="lead"]
 在安裝SnapCenter 適用於Windows的整套解決方案之前、您應該先熟悉一些基本的主機系統空間需求和規模調整需求。
 
 |===

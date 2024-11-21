@@ -10,6 +10,7 @@ summary: 還原資源備份包括啟動與SnapCenter 還原伺服器的連線工
 :imagesdir: ../media/
 
 
+[role="lead"]
 還原資源備份包括啟動與SnapCenter 還原伺服器的連線工作階段、列出備份與擷取備份資訊、以及還原備份。
 
 您必須準備好PowerShell環境、才能執行PowerShell Cmdlet。
@@ -104,4 +105,4 @@ PluginName          :
 ----
 
 
-您可以執行_Get-Help命令name_來取得可搭配Cmdlet使用之參數及其說明的相關資訊。或者、您也可以參閱 https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["《軟件指令程式參考指南》SnapCenter"^]。
+您可以執行_Get-Help命令name_來取得可搭配Cmdlet使用之參數及其說明的相關資訊。或者、您也可以參閱 https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["《軟件指令程式參考指南》SnapCenter"^]。

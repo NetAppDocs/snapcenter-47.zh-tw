@@ -59,8 +59,8 @@ NOTE: 如果SnapManager 您的控制器上已經有一個用作支援的版本�
 「Controller License」（控制器授權）欄會顯示下列狀態：
 
 +
-** image:../media/controller_licensed_icon.gif[""] 表示SnapManager 將某個版本的不含功能的套件授權安裝在FAS 一個不含功能的主AFF 儲存系統上。
-** image:../media/controller_not_licensed_icon.gif[""] 表示SnapManager 未在FAS 一個僅有的儲存AFF 系統上安裝一個不含功能的套裝軟體授權。
+** image:../media/controller_licensed_icon.gif["控制器授權圖示"]表示 SnapManager 套件授權已安裝在 FAS 或 AFF 主儲存系統上。
+** image:../media/controller_not_licensed_icon.gif["控制器未獲授權圖示"]表示 SnapManager 套件授權未安裝在 FAS 或 AFF 主儲存系統上。
 ** 不適用表示SnapManager 由於儲存控制器位於Cloud Volumes ONTAP 不適用的地方、所以不適用某個不適用的功能。ONTAP Select
 
 
@@ -180,7 +180,7 @@ All-Flash Optimized: false
 . 瀏覽至* Systems *>* Software Licenses*。
 . 在「選取條件」區域中、確認已選取「序號」（位於裝置背面）、輸入控制器序號、然後按一下「*執行！*」。
 +
-image::../media/nss_controller_license_select.gif[選擇NSS控制器授權]
+image::../media/nss_controller_license_select.gif[選擇控制器授權]
 
 +
 隨即顯示指定控制器的授權清單。
@@ -238,7 +238,7 @@ NOTE: 只有在使用SnapCenter 以VMware控制器為基礎的授權時、才需
 .. 執行Open-SmConnection Cmdlet、針對SnapCenter SnapCenterAdmin帳戶、啟動與該伺服器的連線工作階段。
 .. 執行Set-SmRegitoryPassword以重設MySQL密碼。
 +
-如需Cmdlet的相關資訊、請參閱 https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["《軟件指令程式參考指南》SnapCenter"^]。
+如需 Cmdlet 的相關資訊，請參閱 https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["《軟件指令程式參考指南》SnapCenter"^]。
 
 
 
