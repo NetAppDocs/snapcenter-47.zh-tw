@@ -111,4 +111,4 @@ NOTE: 如果 DLL 毀損、您可以嘗試修復 SnapCenter 伺服器或修正錯
 
 NOTE: 如果 NSM 或組態檔案毀損、您可以使用相同版本解除安裝並重新安裝 SnapCenter 伺服器。
 
-如需詳細資訊、請參閱 https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["災難恢復API"^] 影片：
+如需詳細資訊，請參閱 https://www.youtube.com/watch?v=_8NG-tTGy8k&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["災難恢復API"^]影片。

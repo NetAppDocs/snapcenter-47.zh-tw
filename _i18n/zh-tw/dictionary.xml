@@ -4255,7 +4255,6 @@
   <block id="f367d650e57088caf7b808e01235016d" category="inline-link">如何使用SnapCenter NetApp從SMBR的二線儲存設備還原</block>
   <block id="41b4c689a8b0e3ba8bfecb2a1e608e46" category="list-text"><block ref="41b4c689a8b0e3ba8bfecb2a1e608e46" category="inline-link-rx"></block></block>
   <block id="f004280f6db6ea5f9302c9851388d751" category="inline-link">使用SMBR從SnapVault 功能中還原Microsoft Exchange郵件</block>
-  <block id="1b0fb59a5bc951f7dc82cb43fe362145" category="list-text"><block ref="00a76af185a73b84e54e96058031aef5" category="inline-link-rx"></block></block>
   <block id="ec053c308e147d0958e28a0ea54218e5" category="summary">如果您需要重新複本複本複本、例如複本毀損時、您可以使用SnapCenter 更新功能重新複製到最新的備份。</block>
   <block id="aabc88376ed488867dcbd5ebe7ee5f24" category="doc">已重新建立被動式Exchange節點複本</block>
   <block id="95ae09e6950aff657a0ec2b6e13f37f0" category="list-text">您必須使用SnapCenter 的是適用於Exchange 4.1或更新版本的版本、以及外掛程式。</block>
@@ -5494,7 +5493,6 @@
   <block id="2a1a78f96ec6b03f3ccdd06b708e6f1a" category="list-text">（選用）將SnapCenter SQL Server組態檔案的支援範本從災難恢復（DR）備份取代為新機器。</block>
   <block id="9f2c74676fb5b339a2fd4a0ccd75bd1e" category="list-text">從SnapCenter DR備份的「SQL Server適用的支援程式」資料夾匯入Windows和SQL排程。</block>
   <block id="27e7993c4841ae5fd670cdd945ccb96d" category="inline-link">災難恢復API</block>
-  <block id="90840bc3d6109c892e0f709274fdc6b6" category="paragraph">如需詳細資訊、請參閱<block ref="af818973dd6acaf1e28a3bd4ca9bd4a5" category="inline-link-rx"></block> 影片：</block>
   <block id="a8827ae14ad272b19b5554bf29b0dd50" category="summary">當SQL Server主要儲存設備的「支援還原」外掛程式重新連線後SnapCenter 、您應該容錯回復至主要儲存設備。</block>
   <block id="c259d7aac6b257b97bf45bb54cdbfb28" category="doc">從SnapCenter SQL Server二線儲存設備的支援程式容錯回復到一線儲存設備</block>
   <block id="7ffc5c3595639b4cfa7e25819a476178" category="list-text">從SnapCenter 「託管主機」頁面、將適用於SQL Server的「支援」外掛程式置於*維護*模式。</block>
@@ -7941,4 +7939,6 @@ NetApp ® 單一信箱恢復已於 2023 年 5 月 12 日結束可用度（ EOA �
   <block id="1d1b01258ef419d4f55f117e4f1c31b5" category="paragraph">您也可以使用_uninstall-SmHostPackage_ Cmdlet和必要的參數、從多個主機解除安裝外掛程式。您可以執行_Get-Help命令name_來取得可搭配Cmdlet使用之參數及其說明的相關資訊。或者、您也可以參閱<block ref="0f28f0b8bf7238e3ed62f151c2fb9abd" category="inline-link-rx"></block>。</block>
   <block id="6e3721ff221b27bff22381b01334befc" category="paragraph">您可以執行_Get-Help命令name_來取得可搭配Cmdlet使用之參數及其說明的相關資訊。或者，您也可以參閱<block ref="0f28f0b8bf7238e3ed62f151c2fb9abd" category="inline-link-rx"></block>。</block>
   <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">如果您要升級多個主機、請選取所有主機、按一下、然後按一 <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>下 * 升級 * &gt; * 確定 * 。</block>
+  <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
+  <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">如需詳細資訊，請參閱<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>影片。</block>
 </blocks>
