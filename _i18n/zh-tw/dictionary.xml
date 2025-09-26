@@ -5111,7 +5111,6 @@
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">您的使用者必須具有SQL Server上的Sysadmin權限。</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">適用於Microsoft SQL Server的VMware vCenter外掛程式使用Microsoft VDI架構、需要系統管理員存取權。SnapCenter</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Microsoft支援文件編號2926557：SQL Server VDI備份與還原作業需要Sysadmin權限</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">如果安裝了適用於Microsoft SQL Server的功能、您必須停止或停用服務和排程。SnapManager</block>
   <block id="024ecfe0da835b1f362b5e64ec1408ab" category="list-text">主機必須可解析為伺服器的完整網域名稱（FQDN）。</block>
   <block id="be512bf47896cfa164b6d043714d4c71" category="paragraph">如果已修改hosts檔案以使其可解析、且在hosts檔案中同時指定了簡短名稱和FQDN、請在SnapCenter 下列格式的Isethosts檔案中建立項目：&lt;ip_address&gt;&lt;host_fqd&gt;&lt;host_name&gt;</block>
@@ -7941,4 +7940,5 @@ NetApp ® 單一信箱恢復已於 2023 年 5 月 12 日結束可用度（ EOA �
   <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">如果您要升級多個主機、請選取所有主機、按一下、然後按一 <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>下 * 升級 * &gt; * 確定 * 。</block>
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">如需詳細資訊，請參閱<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block>影片。</block>
+  <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
 </blocks>
